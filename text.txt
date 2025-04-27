@@ -1,6 +1,6 @@
 ========== HEADER ========== 
 .logo
-Miller
+Joe Code
 
 .nav-link
 Home
@@ -19,7 +19,7 @@ https://behance.com/
 
 ========== HOME ==========
 .home-subtitle
-Hello, My Name is
+Hello, My Name is Mahmoud Sahwan
 
 .home-title
 Zoé Miller
@@ -35,7 +35,7 @@ Years of Experience
 Completed Projects
 
 .home-description
-I am from Paris, France. I have rich experience in web design and am skilled in WordPress.
+I am from damahour, egypt. I have rich experience in web design and am skilled in WordPress.
  I love discussing what makes us unique.
 
 .button
@@ -240,8 +240,8 @@ Your Message
 
 ========== FOOTER ==========
 .footer-copyright
-© 2024 <span>Miller</span>. All Rights Reserved
-Developed by <span>Sajid</span>
+© 2024 <span>Joe Code</span>. All Rights Reserved
+Developed by <span>Mahmoud Sahwan</span>
 
 
 * EMAIL JS *

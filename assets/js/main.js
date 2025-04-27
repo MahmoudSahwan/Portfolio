@@ -33,12 +33,75 @@ var servicesSwiper = new Swiper(".services-swiper", {
 });
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
+var mixer = mixitup('.work-container', {
+    selectors: {
+        target: '.mix'
+    },
+    animation: {
+        duration: 300
+    }
+});
 
 /* Active work */
 
+const LinkWork = document.querySelectorAll('.work-item')
+
+function activeWork(){
+    LinkWork.forEach((a)=>{
+        a.classList.remove('active-work');
+    });
+    this.classList.add('active-work');
+}
+
+LinkWork.forEach((a)=>a.addEventListener(('click'),activeWork))
+
 /*=============== RESUME ===============*/
+const accordionItems = document.querySelectorAll('.resume-item');
+accordionItems.forEach((item)=>{
+    const header = item.querySelector('.resume-header'),
+          content = item.querySelector('.resume-content'),
+          icon = item.querySelector('.resume-icon i');
+    
+    header.addEventListener('click',()=>{
+        const isOpen = item.classList.toggle('accordion-open')
+
+        content.style.height = isOpen ? content.scrollHeight + 'px' : 0;
+        icon.className = isOpen ? 'ri-subtract-line' : 'ri-add-line';
+        // icon.style.color = isOpen ? '#' : '#111';
+
+        accordionItems.forEach((otherItem)=>{
+            if(otherItem !== item && 
+                otherItem.classList.contains('accordion-open'))
+                {
+                otherItem.classList.remove('accordion-open')
+                otherItem.querySelector('.resume-content').style.height = '0';
+                otherItem.querySelector('.resume-icon i').className = 'ri-add-line';
+            }
+        })
+    });
+
+
+})
 
 /*=============== TESTIMONIALS SWIPER ===============*/
+var servicesSwiper = new Swiper(".testimonials-swiper", {
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        // dynamicBullets: true,
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 32,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 32,
+        },
+      },
+});
+
 
 /*=============== EMAIL JS ===============*/
 

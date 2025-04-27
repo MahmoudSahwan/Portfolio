@@ -1,319 +1,690 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== REMIXICON ===============-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <!--=============== SWIPER CSS ===============-->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css" />
+  <!--=============== REMIXICON ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!--=============== SWIPER CSS ===============-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
-    <title>Joe Coder</title>
-  </head>
-  <body>
-    <!--=============== HEADER ===============-->
-    <header class="header">
-      <nav class="nav container">
-        <a href="#" class="nav-logo"> <span>Joe</span> Code </a>
-        <!-- Nav Items -->
-        <div class="nav-menu" id="nav-menu">
-          <ul class="nav-list">
-            <li class="nav-item">
-              <a href="" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="#services" class="nav-link">Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Works</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Testimonials</a>
-            </li>
-            <li class="nav-item">
-              <a href="" class="nav-link">Contact </a>
-            </li>
-          </ul>
-          <div class="social-links">
-            <a
-              href="https://www.facebook.com/MahmoudBashaFadel/"
-              target="_blank"
-              class="social-link"
-            >
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <title>Joe Coder</title>
+</head>
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="header">
+    <nav class="nav container">
+      <a href="#" class="nav-logo"> <span>Joe</span> Code </a>
+      <!-- Nav Items -->
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Works</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Contact </a>
+          </li>
+        </ul>
+        <div class="social-links">
+          <a href="https://www.facebook.com/MahmoudBashaFadel/" target="_blank" class="social-link">
+            <i class="ri-facebook-fill"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/mahmoud-sahwan/" target="_blank" class="social-link">
+            <i class="ri-linkedin-fill"></i>
+          </a>
+          <a href="https://github.com/mahmoudsahwan" target="_blank" class="social-link">
+            <i class="ri-github-fill"></i>
+          </a>
+        </div>
+      </div>
+      <div class="nav-buttons">
+        <div class="nav-settings" id="switcher-toggle">
+          <i class="ri-settings-3-line"></i>
+        </div>
+
+        <!-- Nav Toggle  -->
+        <div class="nav-toggle" id="nav-toggle"></div>
+        <!-- End Nav Toggle  -->
+      </div>
+      <!-- Theme Switcher -->
+    </nav>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <!--=============== HOME ===============-->
+    <section class="home section">
+      <div class="home-container container">
+        <div class="home-content">
+          <h2 class="home-subtitle">Hello, <span>My Name is</span></h2>
+          <h1 class="home-title"><span>Mahmoud</span> Sahwan</h1>
+          <h3 class="home-job">Freelance Designer & Developer</h3>
+          <div class="home-banner">
+            <div class="home-img-wrapper">
+              <img src="assets/img/profile (5).png" alt="" class="home-profile" />
+            </div>
+
+            <div class="home-date home-data-one">
+              <span class="home-data-number">2+</span>
+              <h3 class="home-data-title">
+                Years of <span>Experience</span>
+              </h3>
+            </div>
+            <div class="home-date home-data-two">
+              <span class="home-data-number">15</span>
+              <h3 class="home-data-title">Completed <span>Projects</span></h3>
+            </div>
+
+            <img src="/assets/img/shape-1.png" alt="" class="shape shape-1" />
+            <img src="/assets/img/shape-2.png" alt="" class="shape shape-2" />
+            <img src="/assets/img/shape-3.png" alt="" class="shape shape-3" />
+          </div>
+          <p class="home-description">
+            I'm a freelance designer and developer with a passion for creating
+            beautiful and functional websites. I have experience in HTML, CSS,
+            JavaScript, and various frameworks.
+          </p>
+          <div class="home-socials social-links">
+            <a href="https://www.facebook.com/MahmoudBashaFadel/" target="_blank" class="social-link">
               <i class="ri-facebook-fill"></i>
             </a>
-            <a
-              href="https://www.linkedin.com/in/mahmoud-sahwan/"
-              target="_blank"
-              class="social-link"
-            >
+            <a href="https://www.linkedin.com/in/mahmoud-sahwan/" target="_blank" class="social-link">
               <i class="ri-linkedin-fill"></i>
             </a>
-            <a
-              href="https://github.com/mahmoudsahwan"
-              target="_blank"
-              class="social-link"
-            >
+            <a href="https://github.com/mahmoudsahwan" target="_blank" class="social-link">
               <i class="ri-github-fill"></i>
             </a>
           </div>
-        </div>
-        <div class="nav-buttons">
-          <div class="nav-settings" id="switcher-toggle">
-            <i class="ri-settings-3-line"></i>
+
+          <div class="home-btns">
+            <a download="" href="assets/pdf/zoe-cv.pdf" class="btn">Download CV</a>
+            <a href="#" class="home-link">My Skills</a>
           </div>
-
-          <!-- Nav Toggle  -->
-          <div class="nav-toggle" id="nav-toggle"></div>
-          <!-- End Nav Toggle  -->
-        </div>
-        <!-- Theme Switcher -->
-      </nav>
-    </header>
-
-    <!--=============== MAIN ===============-->
-    <main class="main">
-      <!--=============== HOME ===============-->
-      <section class="home section">
-        <div class="home-container container">
-          <div class="home-content">
-            <h2 class="home-subtitle">Hello, <span>My Name is</span></h2>
-            <h1 class="home-title"><span>Mahmoud</span> Sahwan</h1>
-            <h3 class="home-job">Freelance Designer & Developer</h3>
-            <div class="home-banner">
-              <div class="home-img-wrapper">
-                <img
-                  src="assets/img/profile (5).png"
-                  alt=""
-                  class="home-profile"
-                />
-              </div>
-
-              <div class="home-date home-data-one">
-                <span class="home-data-number">2+</span>
-                <h3 class="home-data-title">
-                  Years of <span>Experience</span>
-                </h3>
-              </div>
-              <div class="home-date home-data-two">
-                <span class="home-data-number">15</span>
-                <h3 class="home-data-title">Completed <span>Projects</span></h3>
-              </div>
-
-              <img src="/assets/img/shape-1.png" alt="" class="shape shape-1" />
-              <img src="/assets/img/shape-2.png" alt="" class="shape shape-2" />
-              <img src="/assets/img/shape-3.png" alt="" class="shape shape-3" />
-            </div>
-            <p class="home-description">
-              I'm a freelance designer and developer with a passion for creating
-              beautiful and functional websites. I have experience in HTML, CSS,
-              JavaScript, and various frameworks.
-            </p>
-            <div class="home-socials social-links">
-              <a
-                href="https://www.facebook.com/MahmoudBashaFadel/"
-                target="_blank"
-                class="social-link"
-              >
-                <i class="ri-facebook-fill"></i>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/mahmoud-sahwan/"
-                target="_blank"
-                class="social-link"
-              >
-                <i class="ri-linkedin-fill"></i>
-              </a>
-              <a
-                href="https://github.com/mahmoudsahwan"
-                target="_blank"
-                class="social-link"
-              >
-                <i class="ri-github-fill"></i>
-              </a>
-            </div>
-
-            <div class="home-btns">
-              <a download="" href="assets/pdf/zoe-cv.pdf" class="btn"
-                >Download CV</a
-              >
-              <a href="#" class="home-link">My Skills</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== SERVICES ===============-->
-      <section class="services section" id="services">
-        <h2 class="section-title" data-title="My Services">What I Do</h2>
-        <div class="container">
-          <div class="swiper services-swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide card">
-                <h4 class="services-subtitle">Web Development</h4>
-
-                <h3 class="services-title">Web Design & Logo</h3>
-                <p class="services-description">
-                  Web designers craft the overall vision & plan for a website
-                  layout. Professional logo development: Business, Company, or
-                  Personal.
-                </p>
-                <a href="" class="link"
-                  >See Pricing <i class="ri-arrow-right-line link-icon"></i
-                ></a>
-              </div>
-              <div class="swiper-slide card">
-                <h4 class="services-subtitle">Apps Development</h4>
-
-                <h3 class="services-title">iOS & Android</h3>
-                <p class="services-description">
-                  Design Software applications to run on mobile devices. Modern
-                  and mobile-ready application that will help you reach all of
-                  your marketing.
-                </p>
-                <a href="" class="link"
-                  >See Pricing <i class="ri-arrow-right-line link-icon"></i
-                ></a>
-              </div>
-              <div class="swiper-slide card">
-                <h4 class="services-subtitle">Game Development</h4>
-
-                <h3 class="services-title">Unity & Unreal Engine</h3>
-                <p class="services-description">
-                  Creating games & describes the design, development and release
-                  of a game. Developing unique mobile android and ios games.
-                </p>
-                <a href="" class="link"
-                  >See Pricing <i class="ri-arrow-right-line link-icon"></i
-                ></a>
-              </div>
-              <div class="swiper-slide card">
-                <h4 class="services-subtitle">Social Media Advertising</h4>
-
-                <h3 class="services-title">Google & FaceBook Ads</h3>
-                <p class="services-description">
-                  Advertising services include: Google search result pages,
-                  gmails, YouTube and other websites participated in Google Ads
-                  program.
-                </p>
-                <a href="" class="link"
-                  >See Pricing <i class="ri-arrow-right-line link-icon"></i
-                ></a>
-              </div>
-              <div class="swiper-slide card">
-                <h4 class="services-subtitle">Graphic Design</h4>
-                <h3 class="services-title">Advertising</h3>
-                <p class="services-description">
-                  graphic designers craft the overall vision & plan for a
-                  Branding. Professional logo Design: Business, Company, or
-                  Personal.
-                </p>
-                <a href="" class="link"
-                  >See Pricing <i class="ri-arrow-right-line link-icon"></i
-                ></a>
-              </div>
-            </div>
-
-            <div class="swiper-pagination">
-
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!--=============== SKILLS ===============-->
-
-      <!--=============== WORK ===============-->
-
-      <!--=============== RESUME ===============-->
-
-      <!--=============== TESTIMONIALS ===============-->
-
-      <!--=============== CONTACT ===============-->
-    </main>
-
-    <!--=============== FOOTER ===============-->
-
-    <!--=============== STYLE SWITCHER ===============-->
-    <div class="style-switcher" id="style-switcher">
-      <h2 class="style-switcher-title">Style Switcher</h2>
-      <div class="style-switcher-item">
-        <h3 class="style-switcher-subtitle">Colors</h3>
-        <div class="style-switcher-colors">
-          <span class="style-switcher-color active-color" style="--hue: 165">
-            <i class="ri-check-line"></i>
-          </span>
-          <span class="style-switcher-color" style="--hue: 260">
-            <i class="ri-check-line"></i>
-          </span>
-          <span class="style-switcher-color" style="--hue: 345">
-            <i class="ri-check-line"></i>
-          </span>
-          <span class="style-switcher-color" style="--hue: 95">
-            <i class="ri-check-line"></i>
-          </span>
-          <span class="style-switcher-color" style="--hue: 65">
-            <i class="ri-check-line"></i>
-          </span>
-          <span class="style-switcher-color" style="--hue: 15">
-            <i class="ri-check-line"></i>
-          </span>
         </div>
       </div>
-      <div class="style-switcher-item">
-        <h3 class="style-switcher-subtitle">Theme</h3>
-        <div class="style-switcher-themes">
-          <div class="style switcher-theme">
-            <input
-              type="radio"
-              class="style-switcher-input"
-              name="body-theme"
-              id="light-theme"
-              value="light"
-              checked="true"
-            />
-            <label for="light-theme" class="label-style-switcher">Light</label>
+    </section>
+
+    <!--=============== SERVICES ===============-->
+    <section class="services section" id="services">
+      <h2 class="section-title" data-title="My Services">What I Do</h2>
+      <div class="container">
+        <div class="swiper services-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide card">
+              <h4 class="services-subtitle">Web Development</h4>
+
+              <h3 class="services-title">Web Design & Logo</h3>
+              <p class="services-description">
+                Web designers craft the overall vision & plan for a website
+                layout. Professional logo development: Business, Company, or
+                Personal.
+              </p>
+              <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+            </div>
+            <div class="swiper-slide card">
+              <h4 class="services-subtitle">Apps Development</h4>
+
+              <h3 class="services-title">iOS & Android</h3>
+              <p class="services-description">
+                Design Software applications to run on mobile devices. Modern
+                and mobile-ready application that will help you reach all of
+                your marketing.
+              </p>
+              <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+            </div>
+            <div class="swiper-slide card">
+              <h4 class="services-subtitle">Game Development</h4>
+
+              <h3 class="services-title">Unity & Unreal Engine</h3>
+              <p class="services-description">
+                Creating games & describes the design, development and release
+                of a game. Developing unique mobile android and ios games.
+              </p>
+              <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+            </div>
+            <div class="swiper-slide card">
+              <h4 class="services-subtitle">Social Media Advertising</h4>
+
+              <h3 class="services-title">Google & FaceBook Ads</h3>
+              <p class="services-description">
+                Advertising services include: Google search result pages,
+                gmails, YouTube and other websites participated in Google Ads
+                program.
+              </p>
+              <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+            </div>
+            <div class="swiper-slide card">
+              <h4 class="services-subtitle">Graphic Design</h4>
+              <h3 class="services-title">Advertising</h3>
+              <p class="services-description">
+                graphic designers craft the overall vision & plan for a
+                Branding. Professional logo Design: Business, Company, or
+                Personal.
+              </p>
+              <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+            </div>
           </div>
-          <div class="style switcher-theme">
-            <input
-              type="radio"
-              class="style-switcher-input"
-              name="body-theme"
-              id="dark-theme"
-              value="dark"
-            />
-            <label for="dark-theme" class="label-style-switcher">Dark</label>
+
+          <div class="swiper-pagination">
+
           </div>
-          <div class="style-switcher-close" id="switcher-close">
-            <i class="ri-close-line"></i>
+        </div>
+      </div>
+    </section>
+
+    <!--=============== SKILLS ===============-->
+    <section class="skills section">
+      <h2 class="section-title" data-title="My Skills"> Professional Skills</h2>
+      <div class="skills-container container grid">
+        <div class="skills-item">
+
+          <div class="skills-header">
+            <h3 class="skills-name" style="color:var(--first-color);">HTML</h3>
+            <span class="skills-value">95 <b>%</b></span>
           </div>
+
+          <p class="skills-description">
+            JavaScript is a versatile programming language that allows you to
+            create dynamic and interactive web applications. It is widely used
+            for both front-end and back-end development, making it an essential
+            skill for any web developer.
+          </p>
+
+
+          <div class="skills-bar">
+            <span class="skills-percentage" style="width: 95%"></span>
+          </div>
+
+        </div>
+        <div class="skills-item">
+
+          <div class="skills-header">
+            <h3 class="skills-name">CSS</h3>
+            <span class="skills-value">90<b>%</b></span>
+          </div>
+
+          <p class="skills-description">
+            JavaScript is a versatile programming language that allows you to
+            create dynamic and interactive web applications. It is widely used
+            for both front-end and back-end development, making it an essential
+            skill for any web developer.
+          </p>
+
+
+          <div class="skills-bar">
+            <span class="skills-percentage" style="width: 90%"></span>
+          </div>
+
+        </div>
+        <div class="skills-item">
+
+          <div class="skills-header">
+            <h3 class="skills-name" style="color:var(--first-color);" >JavaScript</h3>
+            <span class="skills-value">90<b>%</b></span>
+          </div>
+
+          <p class="skills-description">
+            JavaScript is a versatile programming language that allows you to
+            create dynamic and interactive web applications. It is widely used
+            for both front-end and back-end development, making it an essential
+            skill for any web developer.
+          </p>
+
+
+          <div class="skills-bar">
+            <span class="skills-percentage" style="width: 90%"></span>
+          </div>
+
+        </div>
+        <div class="skills-item">
+
+          <div class="skills-header">
+            <h3 class="skills-name">Adobe Illistrator</h3>
+            <span class="skills-value">95 <b>%</b></span>
+          </div>
+
+          <p class="skills-description">
+            JavaScript is a versatile programming language that allows you to
+            create dynamic and interactive web applications. It is widely used
+            for both front-end and back-end development, making it an essential
+            skill for any web developer.
+          </p>
+
+
+          <div class="skills-bar">
+            <span class="skills-percentage" style="width: 85%"></span>
+          </div>
+
+        </div>
+        <div class="skills-item">
+
+          <div class="skills-header">
+            <h3 class="skills-name" style="color:var(--first-color);" >React</h3>
+            <span class="skills-value">95 <b>%</b></span>
+          </div>
+
+          <p class="skills-description">
+            JavaScript is a versatile programming language that allows you to
+            create dynamic and interactive web applications. It is widely used
+            for both front-end and back-end development, making it an essential
+            skill for any web developer.
+          </p>
+
+
+          <div class="skills-bar">
+            <span class="skills-percentage" style="width: 70%"></span>
+          </div>
+
+        </div>
+        <div class="skills-item">
+
+          <div class="skills-header">
+            <h3 class="skills-name">Figma</h3>
+            <span class="skills-value">95 <b>%</b></span>
+          </div>
+
+          <p class="skills-description">
+            JavaScript is a versatile programming language that allows you to
+            create dynamic and interactive web applications. It is widely used
+            for both front-end and back-end development, making it an essential
+            skill for any web developer.
+          </p>
+
+
+          <div class="skills-bar">
+            <span class="skills-percentage" style="width: 90%"></span>
+          </div>
+
+        </div>
+    </section>
+
+    <!--=============== WORK ===============-->
+    <section class="work section">
+      <h2 class="section-title" data-title="My cases">Portfolio</h2>
+
+      <div class="container">
+        <ul class="work-list">
+          <li class="work-item active-work" data-filter="all">All</li>
+          <li class="work-item"data-filter=".Development">Development</li>
+          <li class="work-item"data-filter=".Branding">Branding</li>
+          <li class="work-item"data-filter=".Photography">Photography</li>
+        </ul>
+
+        <div class="work-container grid">
+          <div class="mix Branding">
+            <div class="card">
+              <img class="work-img" src="assets/img/project1.jpeg" alt="project">
+
+              <h4 class="work-category">kjhkjhk</h4>
+              <h3 class="work-title">mmmmm</h3>
+
+              <p class="work-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, accusamus!</p>
+
+              <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+            </div>
+          </div>
+          <div class="mix Branding">
+            <div class="card">
+              <img class="work-img" src="assets/img/project1.jpeg" alt="project">
+
+              <h4 class="work-category">kjhkjhk</h4>
+              <h3 class="work-title">mmmmm</h3>
+
+              <p class="work-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, accusamus!</p>
+
+              <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+            </div>
+          </div>
+          <div class="mix Development">
+            <div class="card">
+              <img class="work-img" src="assets/img/project1.jpeg" alt="project">
+
+              <h4 class="work-category">kjhkjhk</h4>
+              <h3 class="work-title">mmmmm</h3>
+
+              <p class="work-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, accusamus!</p>
+
+              <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+            </div>
+          </div>
+          <div class="mix Development">
+            <div class="card">
+              <img class="work-img" src="assets/img/project1.jpeg" alt="project">
+
+              <h4 class="work-category">kjhkjhk</h4>
+              <h3 class="work-title">mmmmm</h3>
+
+              <p class="work-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, accusamus!</p>
+
+              <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+            </div>
+          </div>
+          <div class="mix Photography">
+            <div class="card">
+              <img class="work-img" src="assets/img/project1.jpeg" alt="project">
+
+              <h4 class="work-category">kjhkjhk</h4>
+              <h3 class="work-title">mmmmm</h3>
+
+              <p class="work-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, accusamus!</p>
+
+              <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+            </div>
+          </div>
+          <div class="mix Photography">
+            <div class="card">
+              <img class="work-img" src="assets/img/project1.jpeg" alt="project">
+
+              <h4 class="work-category">kjhkjhk</h4>
+              <h3 class="work-title">mmmmm</h3>
+
+              <p class="work-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, accusamus!</p>
+
+              <a href="" class="link">See Pricing <i class="ri-arrow-right-line link-icon"></i></a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+
+    </section>
+
+    <!--=============== RESUME ===============-->
+    <section class="resume section">
+      <h2 class="section-title" data-title="My Story">Resume</h2>
+
+      <div class="resume-container container grid">
+        <div class="resume-group">
+          <h3 class="resume-title">Education</h3>
+
+          <div class="resume-items">
+            <div class="resume-item">
+              <div class="resume-header">
+                <h3 class="resume-header-title">Information Technology Institute                
+                </h3>
+
+                <img src="./assets/img/ITI-logo.png" alt="iti-logo" class="resume-header-img"> 
+
+                <span class="resume-icon">
+                  <i class="ri-add-line"></i>
+                </span>
+              </div>
+
+              <div class="resume-content">
+                <div class="resume-content-header">
+                  <h3 class="resume-content-title">Frontend Programming
+                  </h3>
+                  <span class="resume-date">2025 - Present</span>
+                </div>
+
+                <p class="resume-description">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                </p>
+              </div>
+            </div>
+
+            <div class="resume-item">
+              <div class="resume-header">
+                <h3 class="resume-header-title">National Telecommunication Institute (NTI)
+                </h3>
+                <img src="./assets/img/NTI-logo.png" alt="iti-logo" class="resume-header-img">
+
+                <span class="resume-icon">
+                  <i class="ri-add-line"></i>
+                </span>
+              </div>
+
+              <div class="resume-content">
+                <div class="resume-content-header">
+                  <h3 class="resume-content-title">MEAN-STACK Developer</h3>
+                  <span class="resume-date">2024 - 2025</span>
+                </div>
+
+                <p class="resume-description">Lorem ipsum dolor sit amet,
+                   consectetur adipisicing elit. Explicabo, dignissimos.</p>
+              </div>
+            </div>
+
+            <div class="resume-item">
+              <div class="resume-header">
+                <h3 class="resume-header-title">Skills Dynamix </h3>
+                <img src="./assets/img/Skills-dynamix-logo.png" alt="skills-dynamix-logo" class="resume-header-img">
+                <span class="resume-icon">
+                  <i class="ri-add-line"></i>
+                </span>
+              </div>
+
+              <div class="resume-content">
+                <div class="resume-content-header">
+                  <h3 class="resume-content-title">Full-Stack Php developer</h3>
+                  <span class="resume-date">2023 - 2024</span>
+                </div>
+
+                <p class="resume-description">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-group">
+          <h3 class="resume-title">Experience</h3>
+
+          <div class="resume-items">
+            <div class="resume-item">
+              <div class="resume-header">
+                <h3 class="resume-header-title">UI Head & Manager
+                </h3>
+                <span class="resume-icon">
+                  <i class="ri-add-line"></i>
+                </span>
+              </div>
+
+              <div class="resume-content">
+                <div class="resume-content-header">
+                  <h3 class="resume-content-title">Soft Tech Inc</h3>
+                  <span class="resume-date">2020 - Present</span>
+                </div>
+
+                <p class="resume-description">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="resume-item">
+              <div class="resume-header">
+                <h3 class="resume-header-title">UI / UX Specialist
+                </h3>
+                <span class="resume-icon">
+                  <i class="ri-add-line"></i>
+                </span>
+              </div>
+
+              <div class="resume-content">
+                <div class="resume-content-header">
+                  <h3 class="resume-content-title">Kana Design Studio
+
+                  </h3>
+                  <span class="resume-date">2018 - 2020</span>
+                </div>
+
+                <p class="resume-description">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+
+            <div class="resume-item">
+              <div class="resume-header">
+                <h3 class="resume-header-title">Plugins Developer
+                </h3>
+                <span class="resume-icon">
+                  <i class="ri-add-line"></i>
+                </span>
+              </div>
+
+              <div class="resume-content">
+                <div class="resume-content-header">
+                  <h3 class="resume-content-title">Fiverr.com
+                  </h3>
+                  <span class="resume-date">2016 - 2018</span>
+                </div>
+
+                <p class="resume-description">Lorem ipsum dolor sit amet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=============== TESTIMONIALS ===============-->
+    <section class="testimonials section" id="testimonials">
+      <h2 class="section-title" data-title="My Customers Say">testimonials</h2>
+
+    <div class="container">
+      <div class="swiper testimonials-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide card">
+            <div class="testimonial-icon">
+              <i class="ri-double-quotes-r"></i>
+            </div>
+
+            <img src="assets/img/testimonial1.jpg" alt="" class="testimonial-img" />
+
+            <p class="testimonial1-description"> Lorem ipsum dolor sit amet.</p>
+            <h3 class="testimonial-name">Ahmed</h3>
+            <span class="testimonial-author">ceo</span>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="testimonial-icon">
+              <i class="ri-double-quotes-r"></i>
+            </div>
+
+            <img src="assets/img/testimonial2.jpg" alt="" class="testimonial-img" />
+
+            <p class="testimonial1-description"> Lorem ipsum dolor sit amet.</p>
+            <h3 class="testimonial-name">Ahmed</h3>
+            <span class="testimonial-author">ceo</span>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="testimonial-icon">
+              <i class="ri-double-quotes-r"></i>
+            </div>
+
+            <img src="assets/img/testimonial3.jpg" alt="" class="testimonial-img" />
+
+            <p class="testimonial1-description"> Lorem ipsum dolor sit amet.</p>
+            <h3 class="testimonial-name">Ahmed</h3>
+            <span class="testimonial-author">ceo</span>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="testimonial-icon">
+              <i class="ri-double-quotes-r"></i>
+            </div>
+
+            <img src="assets/img/testimonial4.jpg" alt="" class="testimonial-img" />
+
+            <p class="testimonial1-description"> Lorem ipsum dolor sit amet.</p>
+            <h3 class="testimonial-name">Ahmed</h3>
+            <span class="testimonial-author">ceo</span>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="testimonial-icon">
+              <i class="ri-double-quotes-r"></i>
+            </div>
+
+            <img src="assets/img/testimonial5.jpg" alt="" class="testimonial-img" />
+
+            <p class="testimonial1-description"> Lorem ipsum dolor sit amet.</p>
+            <h3 class="testimonial-name">Ahmed</h3>
+            <span class="testimonial-author">ceo</span>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    </section>
+
+    <!--=============== CONTACT ===============-->
+  </main>
+
+  <!--=============== FOOTER ===============-->
+
+  <!--=============== STYLE SWITCHER ===============-->
+  <div class="style-switcher" id="style-switcher">
+    <h2 class="style-switcher-title">Style Switcher</h2>
+    <div class="style-switcher-item">
+      <h3 class="style-switcher-subtitle">Colors</h3>
+      <div class="style-switcher-colors">
+        <span class="style-switcher-color active-color" style="--hue: 165">
+          <i class="ri-check-line"></i>
+        </span>
+        <span class="style-switcher-color" style="--hue: 260">
+          <i class="ri-check-line"></i>
+        </span>
+        <span class="style-switcher-color" style="--hue: 345">
+          <i class="ri-check-line"></i>
+        </span>
+        <span class="style-switcher-color" style="--hue: 95">
+          <i class="ri-check-line"></i>
+        </span>
+        <span class="style-switcher-color" style="--hue: 65">
+          <i class="ri-check-line"></i>
+        </span>
+        <span class="style-switcher-color" style="--hue: 15">
+          <i class="ri-check-line"></i>
+        </span>
+      </div>
+    </div>
+    <div class="style-switcher-item">
+      <h3 class="style-switcher-subtitle">Theme</h3>
+      <div class="style-switcher-themes">
+        <div class="style switcher-theme">
+          <input type="radio" class="style-switcher-input" name="body-theme" id="light-theme" value="light"
+            checked="true" />
+          <label for="light-theme" class="label-style-switcher">Light</label>
+        </div>
+        <div class="style switcher-theme">
+          <input type="radio" class="style-switcher-input" name="body-theme" id="dark-theme" value="dark" />
+          <label for="dark-theme" class="label-style-switcher">Dark</label>
+        </div>
+        <div class="style-switcher-close" id="switcher-close">
+          <i class="ri-close-line"></i>
         </div>
       </div>
     </div>
+  </div>
 
-    <!--=============== SWIPER JS ===============-->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!--=============== MIXITUP ===============-->
+  <!--=============== SWIPER JS ===============-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!--=============== MIXITUP ===============-->
+<script src="assets/js/mixitup.min.js"></script>
+  <!--=============== EMAIL JS ===============-->
 
-    <!--=============== EMAIL JS ===============-->
+  <!--=============== JS ===============-->
+  <script src="/assets/js/main.js"></script>
+</body>
 
-    <!--=============== JS ===============-->
-    <script src="/assets/js/main.js"></script>
-  </body>
 </html>
