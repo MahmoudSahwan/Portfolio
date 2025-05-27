@@ -1,5 +1,4 @@
-const API_KEY = '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'; // Paste your API key, see at miute (10:08)
-
+const API_KEY = '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'; // Paste your API key, see at miute (10:08)
 const content = document.getElementById('content');
 const chatInput = document.getElementById('chatInput');
 const sendButton = document.getElementById('sendButton');
@@ -37,7 +36,7 @@ function getAnswer(question) {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                "model": "google/gemini-2.5-flash-preview-05-20",
+                "model": "qwen/qwen3-30b-a3b:free",
                 "messages": [
                     {
                         "role": "user",
