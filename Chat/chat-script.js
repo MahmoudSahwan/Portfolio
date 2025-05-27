@@ -1,4 +1,4 @@
-const API_KEY = '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'; // Paste your API key, see at miute (10:08)
+const API_KEY = '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'; // Paste your API key, see at miute (10:08)
 
 const content = document.getElementById('content');
 const chatInput = document.getElementById('chatInput');
