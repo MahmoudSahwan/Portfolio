@@ -264,9 +264,9 @@ textarea {
 }
 
 .section-deco .shape {
-  max-width: 226px;
-  height: 226px;
-  bottom: -206px;
+  /* max-width: 226px; */
+  /* height: 226px; */
+  /* bottom: -206px; */
 }
 
 .deco-left .shape {
