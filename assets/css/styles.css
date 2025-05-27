@@ -602,6 +602,7 @@ textarea {
 .home-btns {
   display: flex;
   column-gap: 4.5rem;
+  margin-bottom: 1rem;
   align-items: center;
 }
 
