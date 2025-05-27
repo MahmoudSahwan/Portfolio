@@ -1,4 +1,4 @@
-const API_KEY = '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'; // Paste your API key, see at miute (10:08)
+const API_KEY = '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'; // Paste your API key, see at miute (10:08)
 
 const content = document.getElementById('content');
 const chatInput = document.getElementById('chatInput');
@@ -37,7 +37,7 @@ function getAnswer(question) {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify({
-                "model": "deepseek/deepseek-r1-distill-llama-70b:free",
+                "model": "google/gemini-2.5-flash-preview-05-20",
                 "messages": [
                     {
                         "role": "user",
